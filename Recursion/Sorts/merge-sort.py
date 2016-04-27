@@ -4,10 +4,11 @@ def  MergeSort(array):
 			mid = len(array)//2
 			left = array[:mid]
 			right = array[mid:]
+			print "arr is",array
 			MergeSort(left)
-			print "Left is done",left
+			#print "Left is done",left
 			MergeSort(right)
-			print "Right is done",right
+			#print "Right is done",right
 			i = 0
 			j = 0
 			k = 0
