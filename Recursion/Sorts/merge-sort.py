@@ -35,4 +35,14 @@ def  MergeSort(array):
 arr = map(int,(raw_input("Enter Array of numbers seperated by single spaces: ").split(" ")))
 print "Before Sort",arr
 MergeSort(arr)
-print "After Sort",arr		
+print "After Sort",arr	
+
+
+#Advantages  of Merge Sort
+#1. O(n log n) time Complexity
+#2. Stable sort	
+
+#Disadvantages
+#1. Duplicate array , Auxilary space O(n))
+#2. Worst case is also O(n Log n) time
+#3. A lil slow
