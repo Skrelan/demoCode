@@ -10,6 +10,6 @@ Checking in Linear time, if there exsists a sum of consecutive elements in a giv
 ####3.washingMachineCode.py :
 Implementing a Smart Washing Machine using Python with soak, wash, rinse, soak options and a cancel which can end the process any time.
 
------------------------------------------------
-This is a repo of my democode in python.
-This also seconds as a reference for anyone looking for Data-structure and Algorithm codes in Python
+---
+_This is a repo of my democode in python._  
+_This also seconds as a reference for anyone looking for Data-structure and Algorithm codes in Python_
