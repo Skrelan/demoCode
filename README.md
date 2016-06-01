@@ -2,13 +2,13 @@
 
 ##files:
 ####1.maxConsecutiveSum.py : 
-Maximum Sum of consecutive numbers in Linear Time and Constant Space. 
+Maximum Sum of consecutive numbers in **_Linear Time_** and **_Constant Space_**. 
 
 ####2.sumInAnArray.py :
-Checking in Linear time, if there exsists a sum of consecutive elements in a given array.
+Checking in **_Linear time_**, if there exsists a sum of consecutive elements in a given array.
 
 ####3.washingMachineCode.py :
-Implementing a Smart Washing Machine using Python with soak, wash, rinse, soak options and a cancel which can end the process any time.
+Implementing a Smart Washing Machine using Python with _soak, wash, rinse, soak_ options and a _cancel_ which can end any active porcess _while the process is **active**_.
 
 ####4.BinarySearchTree.py :
 Implementing a Binary Search Tree in python, using Classes (_tree and node_) and performing **Breadth First Search** and **Depth First Search** (_LVR,LRV,VLR_).
