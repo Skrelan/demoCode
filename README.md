@@ -13,6 +13,9 @@ Implementing a Smart Washing Machine using Python with _soak, wash, rinse, spin_
 ####4.BinarySearchTree.py :
 Implementing a Binary Search Tree in python, using Classes (_tree and node_) and performing **Breadth First Search** and **Depth First Search** (_LVR,LRV,VLR_).
 
+####5.findSubStringWithWildCharacters.py :
+Counting number of time a substring, P with **_Wild char_** ( * ) occurs in a string S, with best time as **_Linear Time_**.
+
 ---
 _This is a repo of my democode in python._  
 _This also seconds as a reference for anyone looking for Data-structure and Algorithm codes in Python_
