@@ -25,20 +25,34 @@
 #
 ###
 import time
-import msvcrt
 
-def raw_input_with_timeout(timeout): #custom Raw_input
-	finish = time.time() + timeout
-	result = []
-	while True:
-		if msvcrt.kbhit():
-			result.append(msvcrt.getche())
-			if result[-1] == '\r':  
-				return ''.join(result)
-			time.sleep(0.1)        
-		else:
-			if time.time() > finish:
-				return None
+# Mac and Linux users use this version of the function:
+
+import select
+import sys
+
+def raw_input_with_timeout(timeout):
+    ready, _, _ = select.select([sys.stdin], [],[], timeout)
+    if ready:
+        return sys.stdin.readline().rstrip('\n') # expect stdin to be line-buffered
+    return None
+
+
+# Windows users use this: 
+#
+#import msvcrt
+#def raw_input_with_timeout(timeout): #custom Raw_input
+#	finish = time.time() + timeout
+#	result = []
+#	while True:
+#		if msvcrt.kbhit():
+#			result.append(msvcrt.getche())
+#			if result[-1] == '\r':  
+#				return ''.join(result)
+#			time.sleep(0.1)        
+#		else:
+#			if time.time() > finish:
+#				return None
 		
 class WashingMachine:
 	def __init__(self,capacity):

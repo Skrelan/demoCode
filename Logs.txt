@@ -1,0 +1,4 @@
+The User Activity Log with results
+
+User clicked Soak with result False
+User clicked Wash with result None
