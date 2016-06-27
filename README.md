@@ -16,6 +16,9 @@ Implementing a Binary Search Tree in python, using Classes (_tree and node_) and
 ####[5.findSubStringWithWildCharacters.py](https://github.com/Skrelan/demoCode/blob/master/findSubStringWithWildCharacters.py) :
 Counting number of time a substring, P with **_Wild char_** ( * ) occurs in a string S, with best time as **_Linear Time_**.
 
+####[youTubeTranscriptToText.py](https://github.com/Skrelan/demoCode/blob/master/youTubeTranscriptToText.py) :
+Counting number of time a substring, P with **_Wild char_** ( * ) occurs in a string S, with best time as **_Linear Time_**.
+
 ---
 _This is a repo of my democode in python._  
 _This also seconds as a reference for anyone looking for Data-structure and Algorithm codes in Python_
