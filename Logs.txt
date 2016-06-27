@@ -1,6 +1,0 @@
-The User Activity Log with results
-
-User clicked Soak with result False
-User clicked Soak with result True
-User clicked Rinse with result False
-User clicked Wash with result True
