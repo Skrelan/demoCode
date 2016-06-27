@@ -16,8 +16,8 @@ Implementing a Binary Search Tree in python, using Classes (_tree and node_) and
 ####[5.findSubStringWithWildCharacters.py](https://github.com/Skrelan/demoCode/blob/master/findSubStringWithWildCharacters.py) :
 Counting number of time a substring, P with **_Wild char_** ( * ) occurs in a string S, with best time as **_Linear Time_**.
 
-####[youTubeTranscriptToText.py](https://github.com/Skrelan/demoCode/blob/master/youTubeTranscriptToText.py) :
-Counting number of time a substring, P with **_Wild char_** ( * ) occurs in a string S, with best time as **_Linear Time_**.
+####[6.youTubeTranscriptToText.py](https://github.com/Skrelan/demoCode/blob/master/youTubeTranscriptToText.py) :
+**FREE** _Youtube_ Transcript to Text converter. Runs on Python's built in _Regular Expression_ module.  
 
 ---
 _This is a repo of my democode in python._  
