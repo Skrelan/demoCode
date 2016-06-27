@@ -1,4 +1,4 @@
-#Youtube transcripts to text application - free 
+#Youtube transcripts to text converter application - free 
 #
 #This python script removes the numbers from the transcript that one gets from youtube
 #
