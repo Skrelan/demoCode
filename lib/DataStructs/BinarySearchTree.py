@@ -66,17 +66,17 @@ class BinaryTree:
 		traverse(self.root)
 		print result
 			
+if __name__ == '__main__':		
+	a = BinaryTree()
+	#4, 2, 5, 1, 3, 7, 6, 8
+	a.insert(4)
+	a.insert(2)
+	a.insert(5)
+	a.insert(1)	
+	a.insert(3)
+	a.insert(7)
+	a.insert(6)
+	a.insert(8)
 		
-a = BinaryTree()
-#4, 2, 5, 1, 3, 7, 6, 8
-a.insert(4)
-a.insert(2)
-a.insert(5)
-a.insert(1)	
-a.insert(3)
-a.insert(7)
-a.insert(6)
-a.insert(8)
-		
-a.breath_first_search()
-a.DFS()
+	a.breath_first_search()
+	a.DFS()

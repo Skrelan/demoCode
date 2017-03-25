@@ -137,12 +137,12 @@ class Binary_Search_Tree:
 #		root = self.root
 #		def helper(tracker):
 #			print tracker.value
-    
-BT = Binary_Search_Tree()
-for i in range(0,5):
-	BT.insert(int(raw_input("")))
-for i in range(0,5):
-	BT.search(int(raw_input("")))
+if __name__ == '__main__':
+	BT = Binary_Search_Tree()
+	for i in range(0,5):
+		BT.insert(int(raw_input("")))
+	for i in range(0,5):
+		BT.search(int(raw_input("")))
 
 
 
