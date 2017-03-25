@@ -95,14 +95,15 @@ class Linked_List:
 		print node.value
 		node = node.next
 
-a = Linked_List()
-c = ""
-c = int(raw_input(""))
-while(not c == -1):
+if __name__ == '__main__':
+	a = Linked_List()
+	c = ""
+	c = int(raw_input(""))
+	while(not c == -1):
 		a.append(c)
 		c = int(raw_input(""))
-a.travel()
-#raw_input("")
+	a.travel()
+	#raw_input("")
 		
 		
 		
