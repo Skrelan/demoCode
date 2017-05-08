@@ -1,0 +1,32 @@
+$def with (title, lists)
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<style>
+			body{
+				background: #000
+			}
+			.container{
+				background: -webkit-linear-gradient(top, #ACBDC8 0.0%, #657885 100.0%) no-repeat;
+				border: 3px solid#333;
+			}
+			h2{
+				text-align: center;
+			}
+			h3{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class ="container" style="width: 100%; height: 768px">
+			<h2>
+				$title
+			</h2>
+			$for t in lists:
+				<h3>$t.last_name | $t.first_name</h3>
+				</hr>
+		</div>
+
+	</body>
