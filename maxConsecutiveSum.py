@@ -18,7 +18,9 @@ def maxConsecutiveSum(input):
 	local_max = input[0]
 	final_max = input[0]
 	for i in range (1,len(input)):
+		print local_max+input[i],input[i]
 		local_max = max(local_max+input[i],input[i])
+		print final_max,local_max, "end itr"
 		final_max = max(final_max,local_max)
 	return final_max
 

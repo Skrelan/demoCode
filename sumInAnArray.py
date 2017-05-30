@@ -15,6 +15,7 @@
 #if greater, keep removing the first element contributing to the sum and increasing the index of that element (this is for refering to that value)
 
 def sum_finder(A,T):
+
 	floating_sum = 0
 	first_val_in_sum = A[0]
 	index_tracker = 0

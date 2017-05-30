@@ -1,5 +1,5 @@
 class Configs:
 	def __init__(self):
 		self.logins = {
-			"postgres" : "<your-password>"
+			"postgres" : "*Omsairam993"
 			}

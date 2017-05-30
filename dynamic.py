@@ -27,7 +27,7 @@ def myfunction(name):
 ''' concept2 - Dynamic Programming '''	
 
 def memoize(f):
-	memo = {}
+	memo = {0:1}
 	def helper(x):
 		if x not in memo:
 			print memo
