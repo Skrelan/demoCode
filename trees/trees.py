@@ -120,33 +120,36 @@ class Trees:
         return result, None
 
     def dfs_pre_order_search(self,data): #VLR
-        result = False
+        result = [False]
         if self.root == None:
             return False, "Empty Tree"
         def helper(node):
            if node is not None:
-              if data = node.value:
-                  return True, None
+              if data == node.value:
+                  print "T"
+                  result[0] = True
+                  return
               helper(node.left)
               helper(node.right)
         helper(self.root)
-        return result, None
+        return result[0], None
 
     def dfs_in_order_search(self,data): #LVR
-        result = False
+        result = [False]
         if self.root == None:
             return None, "Empty Tree"
         def helper(node):
            if node is not None:
               helper(node.left)
               if node.value == data:
-                  return True, None
+                  result[0] = True
+                  return
               helper(node.right)
         helper(self.root)
-        return result, None
+        return result[0], None
 
     def dfs_post_order_search(self,data): #VRL
-        result = None
+        result = [False]
         if self.root == None:
             return None, "Empty Tree"
         def helper(node):
@@ -154,9 +157,11 @@ class Trees:
               helper(node.left)
               helper(node.right)
               if node.value == data:
-                  return True, None
+                  print "found"
+                  result[0] = True
+                  return
         helper(self.root)
-        return result, None
+        return result[0], None
 
 tree = Trees()
 def tests():
@@ -169,5 +174,5 @@ def tests():
     print tree.dfs_pre_order()
     print tree.dfs_in_order()
     print tree.dfs_post_order()
-    print dfs_pre_order_search(5)
-    print dfs_pre_order_search(7)
+    print tree.dfs_pre_order_search(5)
+    print tree.dfs_pre_order_search(7)
