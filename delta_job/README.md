@@ -1,4 +1,4 @@
-## Longitudinal Patient Data Interview Question
+## Longitudinal Patient Data 
 
 Here are two tables, events.psv containing dates and medical events in an
 individual patient’s timeline, and demo.psv containing demographic information
